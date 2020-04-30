@@ -75,23 +75,35 @@ svg
 // anvil text
 svg
     .append("text")
-    .text("anvil")
+    .text("Anvil")
     .attr('x', 150)
     .attr('y', 80)
-    .attr('font-size', 15 )
-    .attr('fill','black');
+    .attr('font-size', 17 )
+    .attr('fill','black')
+    .attr('text-decoration',"underline");
 
 // embryo curtain
 svg
     .append("ellipse")
-    .attr('cx', 450)
+    .attr('cx', 475)
     .attr('cy', 225)
     .attr('rx', 50)
-    .attr('ry', 100)
+    .attr('ry', 90)
     .attr('fill', "mediumpurple")
     .attr('fill-opacity', '.7')
     .attr('stroke', 'black')
-    .attr('stroke-opacity', '.5')
+    .attr('stroke-opacity', '.5');
+
+// embryo curtain text
+svg 
+    .append("text")
+    .text("Embryo Curtain")
+    .attr('x', 530)
+    .attr('y', 225)
+    .attr('font-size', 17 )
+    .attr('fill','black')
+    .attr('text-decoration',"underline");
+
 
 // trajectory 0 
 let trajectory_a = svg.append("path")
