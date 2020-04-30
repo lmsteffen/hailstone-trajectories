@@ -1,4 +1,8 @@
-h1, h3{
+h1, h3, h5{
     color: #EAEDED;
     font-family: 'Baloo 2', cursive;
+}
+
+.author {
+    padding: 50px 0px 0px 0px;
 }
