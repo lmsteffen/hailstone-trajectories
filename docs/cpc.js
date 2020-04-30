@@ -42,7 +42,7 @@ svg
 svg
     .append('text')
     .text("Updraft")
-    .attr('x', 560)
+    .attr('x', 580)
     .attr('y', 375)
     .attr('font-size', 17 )
     .attr('fill','black')
@@ -53,7 +53,7 @@ svg
     .append('text')
     .text("Downdraft")
     .attr('x', 60)
-    .attr('y', 350)
+    .attr('y', 370)
     .attr('font-size', 17 )
     .attr('fill','black')
     .attr('text-decoration',"underline");
