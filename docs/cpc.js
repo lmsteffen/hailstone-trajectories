@@ -102,27 +102,27 @@ svg
     .attr('fill','black')
     .attr('text-decoration',"underline");
 
-// embryo curtain
-svg
-    .append("ellipse")
-    .attr('cx', 475)
-    .attr('cy', 225)
-    .attr('rx', 40)
-    .attr('ry', 70)
-    .attr('fill', "mediumpurple")
-    .attr('fill-opacity', '.7')
-    .attr('stroke', 'black')
-    .attr('stroke-opacity', '.5');
+// // embryo curtain
+// svg
+//     .append("ellipse")
+//     .attr('cx', 475)
+//     .attr('cy', 225)
+//     .attr('rx', 40)
+//     .attr('ry', 70)
+//     .attr('fill', "mediumpurple")
+//     .attr('fill-opacity', '.7')
+//     .attr('stroke', 'black')
+//     .attr('stroke-opacity', '.5');
 
-// embryo curtain text
-svg 
-    .append("text")
-    .text("Embryo Curtain")
-    .attr('x', 530)
-    .attr('y', 225)
-    .attr('font-size', 17 )
-    .attr('fill','black')
-    .attr('text-decoration',"underline");
+// // embryo curtain text
+// svg 
+//     .append("text")
+//     .text("Embryo Curtain")
+//     .attr('x', 530)
+//     .attr('y', 225)
+//     .attr('font-size', 17 )
+//     .attr('fill','black')
+//     .attr('text-decoration',"underline");
 
 
 // trajectory 0 
