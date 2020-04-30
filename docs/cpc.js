@@ -72,6 +72,27 @@ svg
     .attr('font-size', 15 )
     .attr('fill','black');
 
+// anvil text
+svg
+    .append("text")
+    .text("anvil")
+    .attr('x', 150)
+    .attr('y', 80)
+    .attr('font-size', 15 )
+    .attr('fill','black');
+
+// embryo curtain
+svg
+    .append("ellipse")
+    .attr('cx', 450)
+    .attr('cy', 225)
+    .attr('rx', 50)
+    .attr('ry', 100)
+    .attr('fill', "mediumpurple")
+    .attr('fill-opacity', '.7')
+    .attr('stroke', 'black')
+    .attr('stroke-opacity', '.5')
+
 // trajectory 0 
 let trajectory_a = svg.append("path")
     .attr("fill", "transparent")
