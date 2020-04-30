@@ -38,6 +38,17 @@ svg
     .attr("stroke-width",4)
     .attr("marker-end","url(#b_arrow)");
 
+// updraft text
+svg
+    .append('text')
+    .text("Updraft")
+    .attr('x', 550)
+    .attr('y', 375)
+    .attr('font-size', 17 )
+    .attr('fill','black')
+    .attr('text-decoration',"underline");
+
+
 // 0C dotted line
 svg
     .append("path")
@@ -88,7 +99,7 @@ svg
     .attr('cx', 475)
     .attr('cy', 225)
     .attr('rx', 40)
-    .attr('ry', 80)
+    .attr('ry', 70)
     .attr('fill', "mediumpurple")
     .attr('fill-opacity', '.7')
     .attr('stroke', 'black')
