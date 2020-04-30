@@ -122,7 +122,7 @@ svg.append("circle")
     .attr("cy", 350) //Starting y
     .attr('r', 4)
     .attr('fill','#ECF0F1')
-    .attr('fill-opacity', '.7')
+    .attr('fill-opacity', '.9')
     .attr('stroke', 'black')
     .attr('stroke-opacity', '.5')
     .transition()
