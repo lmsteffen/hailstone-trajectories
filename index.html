@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3-path.v1.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v1.min.js"></script>
+    <link rel="stylesheet" href="cpc.css" />
+  </head>
+  <body style = "background: #212F3C ">
+      <div class='title'>
+          <h1>Embryo Trajectories and Large Hailstone Growth</h1>
+          <svg id='hail', style = "background: url(https://i.stack.imgur.com/O2s15.jpg) no-repeat">
+            <defs>
+              <marker
+                id="r_arrow"
+                markerUnits="strokeWidth"
+                markerWidth="12"
+                markerHeight="12"
+                viewBox="0 0 12 12"
+                refX="6"
+                refY="6"
+                orient="auto">
+                <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: red;"></path>
+              </marker>
+              <marker
+                id="b_arrow"
+                markerUnits="strokeWidth"
+                markerWidth="12"
+                markerHeight="12"
+                viewBox="0 0 12 12"
+                refX="6"
+                refY="6"
+                orient="auto">
+                <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: blue;"></path>
+              </marker>
+            </defs>
+          </svg>
+      </div>
+      <script src="cpc.js"></script>
+  </body>
+</html>
