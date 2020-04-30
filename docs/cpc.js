@@ -42,12 +42,21 @@ svg
 svg
     .append('text')
     .text("Updraft")
-    .attr('x', 550)
+    .attr('x', 560)
     .attr('y', 375)
     .attr('font-size', 17 )
     .attr('fill','black')
     .attr('text-decoration',"underline");
 
+// downdraft text
+svg
+    .append('text')
+    .text("Downdraft")
+    .attr('x', 60)
+    .attr('y', 350)
+    .attr('font-size', 17 )
+    .attr('fill','black')
+    .attr('text-decoration',"underline");
 
 // 0C dotted line
 svg
